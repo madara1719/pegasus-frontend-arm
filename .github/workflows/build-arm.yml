@@ -20,7 +20,8 @@ jobs:
             qml-module-qtquick-layouts qml-module-qtquick-window2 \
             qml-module-qtgraphicaleffects \
             libqt5svg5-dev qtmultimedia5-dev \
-            libsdl2-dev
+            libsdl2-dev \
+            qttools5-dev-tools qttools5-dev
 
       - name: Configurar
         run: cmake -B build -DCMAKE_BUILD_TYPE=Release -G Ninja
