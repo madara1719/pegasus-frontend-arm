@@ -18,7 +18,7 @@ jobs:
             qtbase5-dev qtdeclarative5-dev qtquickcontrols2-5-dev \
             qml-module-qtquick2 qml-module-qtquick-controls2 \
             qml-module-qtquick-layouts qml-module-qtquick-window2 \
-            qml-module-qtqml-workerscript qml-module-qtgraphicaleffects \
+            qml-module-qtgraphicaleffects \
             libqt5svg5-dev
 
       - name: Configurar
